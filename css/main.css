@@ -1510,7 +1510,7 @@ header .header-logo a {
   height: 100%;
   background-color: #151515;
   background-image: url(../images/concept-3.png);
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-position: center 30%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
