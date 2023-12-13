@@ -53,7 +53,7 @@
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
-  --bs-body-bg-rgb: 8, 8, 8;
+  --bs-body-bg-rgb: 255,255,255;
   --bs-font-sans-serif: "Plus Jakarta Sans";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
@@ -62,7 +62,7 @@
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
-  --bs-body-bg: #FFD0D5;
+  --bs-body-bg: #fff;
   --bs-border-width: 1px;
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
@@ -8194,6 +8194,13 @@ textarea.form-control-lg {
 .logo-primary:hover {
   opacity: 0.7;
   transition: .3s ease;
+}
+
+@media (max-width: 500px) {
+  .logo-primary {
+    height: 22px;
+    transition: .2s ease;
+  }
 }
 .text-primary {
   --bs-text-opacity: 1;
