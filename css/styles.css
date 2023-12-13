@@ -8183,6 +8183,18 @@ textarea.form-control-lg {
 }
 
 /* rtl:end:remove */
+.logo-primary {
+  --bs-text-opacity: 1;
+  height: 30px;
+  opacity: 1;
+  transition: .2s ease;
+  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+}
+
+.logo-primary:hover {
+  opacity: 0.7;
+  transition: .3s ease;
+}
 .text-primary {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
@@ -11730,5 +11742,30 @@ html {
   .profile .dots-4 {
     width: 1.5vw;
     left: -2vw;
+  }
+}
+
+.event-icon {
+  width: 100%;
+}
+
+@media (max-width: 960px) {
+  .event-icon {
+    min-width: 290px;
+    max-width: 345px;
+  }
+}
+
+.event-text {
+  height: 100%;
+}
+
+.img-fluid {
+  height: 400px;
+}
+
+@media (max-width: 960px) {
+  .img-fluid {
+    width: 0px;
   }
 }
